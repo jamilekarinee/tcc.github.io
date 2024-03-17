@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boolean</title>
-    <link rel="stylesheet" href="../../CSS/ASSUNTOS/boolean.css">
+    <title>Array</title>
+    <link rel="stylesheet" href="../../CSS/ASSUNTOS/array.css">
     <!-- Google Fonts : -->
     <link
         href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
@@ -47,10 +47,10 @@
                                 <a href="">Const e Let</a>
                                 <a href="./string.html">String</a>
                                 <a href="./number.html">Number</a>
-                                <a href="">Boolean</a>
+                                <a href="./boolean.html">Boolean</a>
                                 <a href="">Null e Undefined </a>
                                 <a href="">Object </a>
-                                <a href="./array.html">Array</a>
+                                <a href="">Array</a>
                                 <a href="">Function</a>
                             </div>
                     </ul>
@@ -61,57 +61,32 @@
     </header>
     <!-- Fim do Cabeçalho -->
 
-    <p class="texto_body_titulo"><strong>Boolean (Booleano)</strong></p>
-    <p class="texto_body_texto">Representa um valor lógico verdadeiro (true) ou falso (false). Exemplos:
+    <p class="texto_body_titulo"><strong>Array</strong></p>
+    <p class="texto_body_texto">É uma estrutura de dados que permite armazenar vários valores em uma única variável. Os
+        elementos de um array podem ser de qualquer tipo de dado, incluindo números, strings, objetos e até mesmo outros
+        arrays. Para criar um array, você pode usar a seguinte sintaxe:
     </p>
-    <ul>
-        <li>True</li>
-        <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/BOOLEAN/boolean_1.png">
-
-        <li>False</li>
-        <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/BOOLEAN/boolean_2.png">
-        <br>
-        <br>
-
-        <p class="texto_body_texto">O boolean será usado em condições no TypeScript. Confira a <a href="#">Lista de
-                Exercícios</a> desse assunto e o uso do boolean nele.</p>
-    </ul>
+    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/ARRAY/array_1.png">
     <br>
-    <p class="texto_body_texto">Lembre-se que o "let" na declaração da variável pode ser substituído por <i>var</i>
-        ou <i>const</i>, dependendo do seu uso futuro. Aprenda mais sobre a diferença de let, var e const clicando
-        <a href="">aqui</a>.
+    <br>
+
+    <p class="texto_body_texto">Principais conceitos e operações com arrays em TS:</p>
+    <!-- Acesso aos elementos -->
+    <p class="texto_body_titulo">Acesso aos elementos</p>
+    <p class="texto_body_texto">Os elementos em um array são acessados por meio de um índice, que começa do zero. Por
+        exemplo, frutas[0] acessaria o primeiro elemento do array "frutas":
     </p>
+    <img class="img-fluid imagens_dos_codigos_margin" src="../../IMAGES/ASSUNTOS/ARRAY/array_2.png">
     <br>
 
-    <!-- Operadores de comparação -->
-    <p class="texto_body_titulo">Operadores de comparação</p>
-    <p class="texto_body_texto">Além dos operadores de comparação, TS
-        também possui operadores lógicos que permitem combinar ou negar valores booleanos.
-        Os principais operadores lógicos em TS são:</p>
+    <p class="texto_body_texto">Manipulação de elementos:</p>
     <ul>
-        <li>&& (E lógico): Retorna true se ambos os operandos forem true.</li>
-        <li>|| (OU lógico): Retorna true se pelo menos um dos operandos for true.</li>
-        <li>! (NÃO lógico): Inverte o valor de um operando booleano.</li>
-        <img class="img-fluid imagens_dos_codigos_margin" src="../../IMAGES/ASSUNTOS/BOOLEAN/boolean_3.png">
-    </ul>
-    <br>
+        <li>Adição de elementos (push)</li>
+        <img class="img-fluid imagens_dos_codigos_margin" src="../../IMAGES/ASSUNTOS/ARRAY/array_3.png">
 
-    <ul>
-        <li>Igualdade fraca ou abstrata (==): Compara e aceita dois valores iguais (até mesmo se estiverem
-            com tipos diferentes).
-        </li>
-        <img class="img-fluid imagens_dos_codigos_margin" src="../../IMAGES/ASSUNTOS/BOOLEAN/boolean_4.png">
+        <li>Remoção de elementos(pop): remove o último elemento do array.</li>
+        <img class="img-fluid imagens_dos_codigos_margin" src="../../IMAGES/ASSUNTOS/ARRAY/array_4.png">
 
-        <li>Desigualdade fraca ou abstrata (!=): Retorna verdadeiro se os operandos forem diferentes.</li>
-        <img class="img-fluid imagens_dos_codigos_margin" src="../../IMAGES/ASSUNTOS/BOOLEAN/boolean_5.png">
-
-        <li>Igualdade estrita (===): retorna verdadeiro se os operandos forem estritamente os mesmos, ou seja,
-            se contiverem o mesmo valor e forem do mesmo tipo.</li>
-        <img class="img-fluid imagens_dos_codigos_margin" src="../../IMAGES/ASSUNTOS/BOOLEAN/boolean_6.png">
-
-        <li>Desigualdade estrita (!===): retorna verdadeiro se os operandos forem diferentes em valor e/ou
-            tipo.</li>
-        <img class="img-fluid imagens_dos_codigos_margin" src="../../IMAGES/ASSUNTOS/BOOLEAN/boolean_7.png">
     </ul>
     <br>
 
@@ -131,4 +106,5 @@
         </div>
     </footer>
 </body>
+
 </html>
