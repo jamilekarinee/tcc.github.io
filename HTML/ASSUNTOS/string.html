@@ -27,42 +27,105 @@
 </head>
 
 <body>
-            <!-- Menu -->
-            <nav>
-                <center><div class="container">
-                        <li class="lista_do_cabecalho">
-                            <i class="material-icons icon_cabecalho">menu</i>
-                            <div class="topicos">
-                                <a href="./HTML/ASSUNTOS/string.html" class="link_selecionado">String</a>
-                                <a href="./HTML/ASSUNTOS/number.html">Number</a>
-                                <a href="./HTML/ASSUNTOS/boolean.html">Boolean</a>
-                                <a href="./HTML/ASSUNTOS/null_e_undefined.html">Null e Undefined </a>
-                                <a href="./HTML/ASSUNTOS/object.html">Object </a>
-                                <a href="./HTML/ASSUNTOS/array.html">Array</a>
-                                <a href="./HTML/ASSUNTOS/function.html">Function</a>
-                            </div>
-                    </ul>
-                    </div>
-                </center>
-            </nav>
-    
-        <!-- MENU LATERAL DIREITO -->
-    <!-- Falar da criação do site -->
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+        <div class="cabecalho__detalhes">
+            <a href="../../index.html" class="redirecionar_pag_inicial">
+                <p class="nome_site_aprenda">aprenda</p>
+                <h1 class="nome_site_ts">TypeScript</h1>
+            </a>
+        </div>
+
+        <!-- Menu --> 
+        <nav>
+            <center>
+                <div class="container">
+                <ul>            
+                    <li class="lista_do_cabecalho">
+                        <i class="material-icons icon_cabecalho">menu</i>
+                        <div class="topicos">
+                            <a href="">Const e Let</a>
+                            <a href="">String</a>
+                            <a href="./number.html">Number</a>                            
+                            <a href="./boolean.html">Boolean</a>
+                            <a href="">Null e Undefined </a>
+                            <a href="">Object </a>
+                            <a href="">Array</a>
+                            <a href="">Function</a>
+                        </div>
+                </ul>
+                </div>
+            </center>
+        </nav>
+        <!-- Fim Menu -->
+    </header>
+    <!-- Fim do Cabeçalho -->
+
     <p class="texto_body_titulo"><strong>String (Texto)</strong></p>
-    <p class="texto_body_texto"> Sequências de caracteres que representam texto. 
-        Podem ser definidas com aspas simples (') ou duplas ("). É possível apresentá-las de duas formas: 
+    <p class="texto_body_texto">Uma variável do tipo string é utilizada para armazenar sequências de caracteres, ou seja, texto.
+        Podem ser definidas com aspas simples (') ou duplas ("). É possível apresentá-las de algumas formas:
     </p>
     <ul>
-        <li>Definindo-a como string e em outra linha dando valor à ela: </li>
-        <img class="img-fluid" src="">
-        <li>Definindo-a como string e na mesma linha de código dando seu valor:</li>
+        <li>Primeiramente dando nome à variável, depois definindo-a como string e em outra linha atribuindo valor à ela (com aspas simples):</li>
+        <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/STRING/string_1.png">
+
+        <li>Primeiramente dando nome à variável, depois definindo-a como string e em outra linha atribuindo valor à ela (com aspas duplas):</li>
+        <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/STRING/string_2.png">
+        <br>
+
+        <p class="texto_body_texto">Perceba que a única diferença foi o uso de aspas (simples ou duplas).</p>
+        <br>
+
+        <li>Definindo a variável como string e na mesma linha de código atribuindo valor à ela: </li>
+        <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/STRING/string_3.png">
+        <br>
+
+        <li>Ou ainda: simplesmente dando um nome à variável e logo em seguida atribuindo-lhe valor, sem a
+            necessidade de especificar seu tipo (o código saberá o tipo de acordo com o valor escrito - com aspas: string,
+            número: number, e assim por diante).</li>
+        <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/STRING/string_4.png">
+
     </ul>
     <br>
+    <p class="texto_body_texto">Lembre-se que o "let" na declaração da variável pode ser substituído por <i>var</i>
+        ou <i>const</i>, dependendo do seu uso futuro. Aprenda mais sobre a diferença de let, var e const clicando
+        <a href="">aqui</a>.
+    </p>
+
+    <br>
+    <br>
+    <!-- Concatenação -->
+    <p class="texto_body_titulo">Concatenação de strings</p>
+    <p class="texto_body_texto">É possível concatenar strings usando o operador "+". Por exemplo:</p>
+    <br>
+    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/STRING/string_5.png">
+    <br>
+
+    <!-- Comprimento -->
+    <p class="texto_body_titulo">Comprimento da string</p>
+    <p class="texto_body_texto">É possível obter o comprimento da string usando o operador "length". Por exemplo:</p>
+    <br>
+    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/STRING/string_6.png">
+    <br>
+
     <br>
     <br>
     <br>
-    <p class="voltar_pag_inicial"><a href="../index.html">Voltar para a página inicial</a></p>
-    </div>
+    <p class="voltar_pag_inicial">
+        <a href="../../index.html">Voltar para a página inicial</a></p>
+
+    <!-- Rodapé -->
+    <footer class="main-footer">
+        <div class="div1_rodape">
+            <img src="../../IMAGES/rodape.png" class="img_rodape img-fluid">
+            <p class="texto_body_texto">© 2024 AprendaTypeScript.com</p>
+        </div>
+        <div class="div2_rodape">
+            <p><a href="../../HTML/bibliografia.html" class="texto_body_texto">Bibliografia</a></p>
+            <p><a href="../../HTML/sobre.html" class="texto_body_texto">Sobre</a></p>
+        </div>
+    </footer>
+
 </body>
 
 </html>
