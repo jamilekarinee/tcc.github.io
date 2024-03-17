@@ -61,7 +61,7 @@ nav li a{
     color: white;
 }
 .icon_cabecalho{
-    color: white;
+    color: white; 
 }
 .lista_do_cabecalho:hover .topicos{
     display: block;
@@ -71,7 +71,7 @@ nav li a{
     box-shadow: 0  0 2px black;
     display: none; 
     background-color: var(--azul_escuro);
-    height: 100px;
+    height: auto;
     width: 150px;
     right: 0px;
 }

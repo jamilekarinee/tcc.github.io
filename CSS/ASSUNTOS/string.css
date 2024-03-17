@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --azul_escuro : #004AAD;
+    --altura_cabecalho: 70px;
+    --cor_body: #002A62; 
+}
+
+ul li{
+    margin-left: 40px;
+    color: white;
+}
+a{
+    color: white; 
+}
+body {
+    font-family: poppins, sans-serif;
+    background-color: var(--cor_body);
+}
+nav{
+    background-color: #004AAD;
+    height: 50px; 
+    align-items: center;
+}
+nav li{
+    display: inline-block;
+}
+nav li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+.icon_cabecalho{
+    color: white;
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    right: 0px;
+}
+.lista_do_cabecalho:hover .topicos{
+    display: block;
+}
+.topicos{
+    position: absolute;
+    box-shadow: 0  0 2px black;
+    display: none; 
+    background-color: var(--azul_escuro);
+    height: auto;
+    width: 150px;
+    right: 0px;
+}
+.topicos a{
+    display: block;
+    color: white;
+}
+
+.texto_body_titulo{
+    color: white;
+    font-family: "Lexend", Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.texto_body_texto{
+    color: white;
+    font-family: "Libre Franklin", Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    display: inline-block;
+}
+.voltar_pag_inicial{
+    font-family: 'Courier Prime', Arial, Helvetica, sans-serif; 
+    font-size: 16px;
+    margin-left: 20px;
+}
